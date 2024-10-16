@@ -3,7 +3,7 @@ import sqlite3
 #Part 1: Data creation, import, and insertion
 
 #Create a new SQLite database
-conn = sqlite3.connect('employee.db')
+conn = sqlite3.connect('employee.db')#connect sqlite3
 c = conn.cursor()
 
 #Create Employee table
